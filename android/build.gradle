@@ -3,7 +3,7 @@ version '1.0'
 apply plugin: 'com.android.library'
 android {
     namespace 'com.baidu.flutter_bmflocation'  // ✅ 按实际包名写
-    compileSdkVersion 30
+    compileSdkVersion 35
 
     defaultConfig {
         minSdkVersion 19
