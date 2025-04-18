@@ -1,12 +1,12 @@
 group 'com.baidu.flutter_bmflocation'
-version '3.6.1'
+version '1.0'
 apply plugin: 'com.android.library'
 android {
-    namespace 'com.baidu.flutter_bmflocation'   // ✅ 按实际包名写
-    compileSdkVersion 35
+    namespace 'com.baidu.flutter_bmflocation'  // ✅ 按实际包名写
+    compileSdkVersion 30
 
     defaultConfig {
-        minSdkVersion 24
+        minSdkVersion 19
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
