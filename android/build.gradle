@@ -1,8 +1,8 @@
 group 'com.baidu.flutter_bmflocation'
 version '3.6.1'
-
+apply plugin: 'com.android.library'
 android {
-    namespace 'com.befovy.fijkplayer'  // ✅ 按实际包名写
+    namespace 'com.baidu.flutter_bmflocation'   // ✅ 按实际包名写
     compileSdkVersion 35
 
     defaultConfig {
